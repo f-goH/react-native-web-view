@@ -37,7 +37,7 @@
     "url": "git+https://github.com/CharlesStover/react-native-web-view.git"
   },
   "scripts": {
-    "build": "npx webpack",
+    "build": "webpack",
     "dev": "set NODE_ENV=development && webpack",
     "postinstall": "yarn build",
     "test": "echo \"No test.\""
