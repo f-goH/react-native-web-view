@@ -39,7 +39,7 @@
   "scripts": {
     "build": "webpack",
     "dev": "set NODE_ENV=development && webpack",
-    "install": "npm run build",
+    "postinstall": "yarn build",
     "test": "echo \"No test.\""
   }
 }
