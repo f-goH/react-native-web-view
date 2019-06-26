@@ -39,7 +39,7 @@
   "scripts": {
     "build": "webpack",
     "dev": "set NODE_ENV=development && webpack",
-    "prepublishOnly": "npm run build",
+    "install": "npm run build",
     "test": "echo \"No test.\""
   }
 }
